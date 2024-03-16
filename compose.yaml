@@ -1,0 +1,13 @@
+services:
+  web:
+    image: oximeter:latest
+    ports:
+      - "8080:8080"
+    volumes:
+      - .:/code
+  postgres:
+    image: postgres:bullseye
+    ports:
+      - "5432:5432" 
+    environment:
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}

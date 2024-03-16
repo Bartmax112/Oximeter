@@ -1,3 +1,10 @@
+# Description
+Oximeter is a backend service for Pulse. It can be executed with following commands.
+
+mvn clean install
+docker build . -t oximeter
+docker run -p 8080:8080 oximeter
+
 ## Micronaut 4.3.5 Documentation
 
 - [User Guide](https://docs.micronaut.io/4.3.5/guide/index.html)
