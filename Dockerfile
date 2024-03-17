@@ -2,7 +2,7 @@ FROM openjdk:17-alpine
 
 WORKDIR /app
 
-COPY target/Oximeter*.jar app.jar
+COPY target/oximeter*.jar app.jar
 
 EXPOSE 8080
 

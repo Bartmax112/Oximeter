@@ -1,6 +1,11 @@
 package com.bart;
 
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
 import io.micronaut.runtime.Micronaut;
+
 
 public class Oximeter {
 
